@@ -1,0 +1,33 @@
+.card {
+  width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: sans-serif;
+  background-color: rgb(28 52 91 / 36%);
+}
+
+.card-header {
+  color: white;
+  padding: 16px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+}
+
+.card-body {
+  padding: 16px;
+  color: white;
+}
+hr {
+  width: 95%;
+  margin: auto;
+}
+.rounded-hr {
+  border: none;
+  height: 3px; /* Thickness of the line */
+  background-color: #fff; /* Color of the line */
+  border-radius: 1.5px; /* Roundness of the edges */
+}
